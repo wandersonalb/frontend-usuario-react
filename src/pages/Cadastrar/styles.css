@@ -1,0 +1,40 @@
+#cadastrar-container {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastrar-container form {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#cadastrar-container form input {
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+#cadastrar-container button {
+    width: 300px;
+    height: 48px;
+    background: #1b2b5c;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+#cadastrar-container button:hover {
+    opacity: 0.8;
+}
