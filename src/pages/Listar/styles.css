@@ -1,0 +1,58 @@
+#listar-container {
+    max-width: 900px;
+    margin: 50px auto 0;
+}
+
+#listar-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#listar-container header h1 {
+    font-size: 21px;
+    border-left: 1px solid #eee;
+    padding-left: 20px;
+}
+
+#listar-container header a {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#listar-container header a:hover {
+    opacity: 0.8;
+}
+
+#listar-container form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#listar-container form input {
+    height: 38px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+#listar-container ul {
+    margin: 30px 0;
+    list-style: none;
+}
+
+#listar-container ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+#listar-container ul li + li {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
